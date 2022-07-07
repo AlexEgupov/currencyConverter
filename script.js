@@ -1,9 +1,7 @@
 'use strict';
 
 const from = document.getElementById('from');
-const fromOptions = from.querySelectorAll('option');
 const to = document.getElementById('to');
-const toOptions = to.querySelectorAll('option');
 const form = document.querySelector('form');
 const inputFrom = form.querySelectorAll('input')[0];
 const inputTo = form.querySelectorAll('input')[1];
