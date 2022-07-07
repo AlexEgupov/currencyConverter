@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <select name="from" id="from">
+        <option value="">Из какой валюты</option>
+        <option value="RUB">Российский рубль</option>
+        <option value="EUR">Евро</option>
+        <option value="USD">Доллар США</option>
+    </select>
+    <select name="to" id="to">
+        <option value="">В какую валюту</option>
+        <option value="RUB">Российский рубль</option>
+        <option value="EUR">Евро</option>
+        <option value="USD">Доллар США</option>
+    </select>
+    <form>
+        <input type="text" placeholder="Количество валюты" required > <span class="from"></span><br>
+        <input type="text" placeholder="Конвертированная валюта" disabled> <span class="to"></span><br>
+        <button>Конвертировать</button>
+    </form>
+
+</body>
+</html>
