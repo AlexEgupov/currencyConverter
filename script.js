@@ -44,8 +44,6 @@ to.addEventListener('change', (e) => {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    console.log('sumbit');
-    console.log(inputFrom.value);
     textFrom.textContent = `${currencyTextFrom} (${currencyCodeFrom})`;
     textTo.textContent = `${currencyTextTo} (${currencyCodeTo})`;
 
